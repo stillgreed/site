@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+
+<body>
+  <section class="gallery">
+    <h2 class="title">Gallery</h2>
+    <div class="gallery-list">
+      <a href="img/4el.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/4el.jpg" alt="alt">
+      </a>
+      <a href="img/love.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/love.jpg" alt="alt">
+      </a>
+      <a href="img/pugalo.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/pugalo.jpg" alt="alt">
+      </a>
+      <a href="img/rebirth.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/rebirth.jpg" alt="alt">
+      </a>
+      <a href="img/zamok.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/zamok.jpg" alt="alt">
+      </a>
+      <a href="img/fire.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/fire.jpg" alt="alt">
+      </a>
+      <a href="img/castle.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/castle.jpg" alt="alt">
+      </a>
+      <a href="img/haul.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="img/haul.jpg" alt="alt">
+      </a>
+    </div>
+    
+  
+  <div class="navigation">
+    <div class="logo"></div>
+    <div class="menu">
+      <ul class="nav">
+        <li><a class="link" href="main.html">Главная</a></li>
+        <li><a class="link" href="gallery.html">Галлерея</a></li>
+        <li><a class="link" href="Forum.html">Форум</a></li>
+        <li><a class="link" href="login.html">Личный кабинет</a></li>
+      </ul>
+      <ul class="nav icon">
+        <li><a class="link" href="#"><i class="user"></i></a></li>
+        <li><a class="link" href="#"><i class="exit"></i></a></li>
+      </ul>
+    </div>  
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+</body>
+
+</html>
